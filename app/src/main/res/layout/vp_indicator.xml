@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <com.changzheng.library_wcz_viewpagerindicator.ViewPagerIndicator
+        android:id="@+id/id_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#dc6c6c"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        app:visible_tab_count="3">
+
+
+    </com.changzheng.library_wcz_viewpagerindicator.ViewPagerIndicator>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
